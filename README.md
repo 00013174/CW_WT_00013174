@@ -4,10 +4,8 @@ This is a simple website for a learning center that includes five pages: Home, A
 
 ## Installation
 
-To use this website locally, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/your-username/learning-center-website.git`
-2. 
+1. Github repository:  https://github.com/00013174/CW_WT_00013174
+2. Link: https://primelc.tiiny.site
 
 ## Usage
 
