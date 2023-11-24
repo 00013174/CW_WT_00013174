@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <h1>Prime LC</h1>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-bars" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="teacher.html">TEACHER</a></li>
+                    <li><a href="career.html">CAREER</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-circle-xmark" onclick="showMenu()"></i>
+        </nav>
+
+    </section>
+    <section class="main-content">
+        <div class="profile-container">
+            <img class="profile-image" src="media/images/teacher-1.webp" alt="Teacher Profile Image">
+            <h1 class="profile-name">Ms. Marina</h1>
+            <h2>About</h2>
+            <p class="profile-experience">4 years of teaching experience</p>
+            <h2>900+ STUDENTS</h2>
+            <p class="profile-subjects">Subjects Taught: Math</p>
+            <div class="arrow-container">
+            <span class="arrow arrow-left" onclick="showPrevProfile()">&lt;</span>
+            <span class="arrow arrow-right" onclick="showNextProfile()">&gt;</span>
+            </div>
+        </div>
+
+        <div class="profile-container" style="display: none;">
+            <img class="profile-image" src="media/images/teacher-3.webp" alt="Teacher Profile Image">
+            <h1 class="profile-name">Jane Smith</h1>
+            <h2>About</h2>
+            <p class="profile-experience">7 years of teaching experience</p>
+            <h2>8.0</h2>
+            <p class="profile-education">IELTS SCORE</p>
+            
+            <h2>1500+ STUDENTS</h2>
+            <p class="profile-subjects">Subjects Taught: General English</p>
+            <div class="arrow-container">
+            <span class="arrow arrow-left" onclick="showPrevProfile()">&lt;</span>
+            <span class="arrow arrow-right" onclick="showNextProfile()">&gt;</span>
+            </div>
+        </div>
+        
+        <div class="profile-container" style="display: none;">
+            <img class="profile-image" src="media/images/comment-1.jpg" alt="Teacher Profile Image">
+            <h1 class="profile-name">Maks</h1>
+            <h2>About</h2>
+            <p class="profile-experience">5 years of teaching experience</p>
+            <h2>8.5</h2>
+            <p class="profile-education">IELTS SCORE
+            </p>
+            <h2>1000+ STUDENTS</h2>
+            <p class="profile-subjects">Subjects Taught: General English</p>
+            <div class="arrow-container">
+            <span class="arrow arrow-left" onclick="showPrevProfile()">&lt;</span>
+            <span class="arrow arrow-right" onclick="showNextProfile()">&gt;</span>
+            </div>
+        </div>
+
+        <div class="profile-container" style="display: none;">
+            <img class="profile-image" src="media/images/comment-1.jpg" alt="Teacher Profile Image">
+            <h1 class="profile-name">Jane Smith</h1>
+            <h2>About</h2>
+            <p class="profile-experience">9 years of teaching experience</p>
+            
+            <h2>2000+ STUDENTS</h2>
+            <p class="profile-subjects">Subjects Taught: WEB Programming</p>
+            <div class="arrow-container">
+            <span class="arrow arrow-left" onclick="showPrevProfile()">&lt;</span>
+            <span class="arrow arrow-right" onclick="showNextProfile()">&gt;</span>
+            </div>
+        </div>
+        <div class="profile-container" style="display: none;">
+            <img class="profile-image" src="media/images/comment-1.jpg" alt="Teacher Profile Image">
+            <h1 class="profile-name">R. Aleksandr</h1>
+            <h2>About</h2>
+            <p class="profile-experience">6 years of teaching experience</p>
+            
+            <h2>1000+ STUDENTS</h2>
+            <p class="profile-subjects">Subjects Taught: WEB Programming</p>
+            <div class="arrow-container">
+            <span class="arrow arrow-left" onclick="showPrevProfile()">&lt;</span>
+            <span class="arrow arrow-right" onclick="showNextProfile()">&gt;</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4>Branchs</h4>
+                    <ul>
+                        <li><a href="">Drujba</a></li>
+                        <li><a href="">Yunusobod</a></li>
+                        <li><a href="">C1</a></li>
+                        <li><a href="">Chlonzor</a></li>
+                        <hr>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Branchs</h4>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="teacher.html">TEACHER</a></li>
+                        <li><a href="career.html">CAREER</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <hr>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Sign up for your first lesson!</h4>
+                    <form action="">
+                        <input type="text" placeholder="Your name" class="inputName">
+                        <input type="text" placeholder="Enter Number" class="inputNumber">
+                        <input type="submit" value="Submit" class="inputSubmit">
+                        <br>
+                        <hr>
+                        <br>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-telegram"></i>
+                    </form>
+                </div>
+            </div>
+            <hr>    
+            <div class="row-social">
+                <div class="col-social">
+                    <p>&copy; 2023 Learning Center. All rights reserved.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Here's the continuation of the JavaScript code: -->
+
+    <script>
+        var profiles = document.getElementsByClassName('profile-container');
+        var currentIndex = 0;
+
+        function showProfile(index) {
+        for (var i = 0; i < profiles.length; i++) {
+            profiles[i].style.display = 'none';
+        }
+        profiles[index].style.display = 'block';
+        }
+
+        function showNextProfile() {
+        currentIndex = (currentIndex + 1) % profiles.length;
+        showProfile(currentIndex);
+        }
+
+        function showPrevProfile() {
+        currentIndex = (currentIndex - 1 + profiles.length) % profiles.length;
+        showProfile(currentIndex);
+        }
+        showProfile(currentIndex);
+    </script>
+</body>
+</html>
